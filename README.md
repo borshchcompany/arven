@@ -21,7 +21,7 @@ You can read more about using git commands in [documentation](https://git-scm.co
 
 ## SSH keys
 
-If you want to `git push` you need to exchange SSH keys. [Github SSH keys howto](https://help.github.com/articles/connecting-to-github-with-ssh/)
+If you want to `git push` you need to exchange SSH keys. [Github SSH keys howto](https://help.github.com/articles/connecting-to-github-with-ssh/). If you need help inform through Slack.
 
 ## Writing applications
 
