@@ -8,8 +8,8 @@ Go to [Node download page](https://nodejs.org/en/download/) and install Node for
 If not installed install [Git](https://git-scm.com/downloads) for your OS
 
 After installation go to the directory where you want to keep your files e.g. **D:\projects\\** and open cmd.
-
 To do that you need to hold **Shift + Right Click** in the folder you want it opened on, and click "open command window here". That should do the trick!
+(Or press Windows key and type "git bash" then press Enter. After that with command "cd **D:\projects\\**" go to work directory)
 
 After the terminal is open paste command
 
