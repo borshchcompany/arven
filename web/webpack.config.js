@@ -42,8 +42,7 @@ const config = {
 	},
 	resolve: {
 		alias: {
-			"~": path.resolve(ROOT, "apps/"),
-			"less-variables": path.resolve(ROOT, "./less/variables.less")
+			"~": path.resolve(ROOT, "apps/")
 		},
 		extensions: [".js", ".jsx"]
 	},
