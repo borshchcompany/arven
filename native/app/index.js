@@ -3,14 +3,13 @@ import { Provider } from "react-redux";
 import { StyleSheet, Text, View } from "react-native";
 
 import store from "./configs/store";
+import RootNavigator from './configs/routes';
 
 export default class App extends React.Component {
 	render() {
 		return (
 			<Provider store={store}>
-				<View style={styles.container}>
-					<Text>Start Arven project!</Text>
-				</View>
+        <RootNavigator />
 			</Provider>
 		);
 	}
