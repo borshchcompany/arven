@@ -13,10 +13,13 @@
 	"license": "ISC",
 	"dependencies": {
 		"cors": "^2.8.4",
+		"db-migrate-mysql": "^1.1.10",
 		"express": "^4.16.2",
 		"morgan": "^1.9.0",
+		"mysql2": "^1.5.2",
 		"reload": "^2.2.2",
 		"resource-router-middleware": "^0.7.0",
+		"sequelize": "^4.33.1",
 		"watch": "^1.0.2"
 	},
 	"devDependencies": {
