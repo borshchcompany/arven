@@ -1,0 +1,10 @@
+{
+	"defaultEnv": "dev",
+	"dev": {
+		"driver": "mysql",
+		"user": "root",
+		"password": "",
+		"database": "arven",
+		"multipleStatements": true
+	}
+}

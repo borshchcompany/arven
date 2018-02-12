@@ -1,11 +1,11 @@
 import { Router } from "express";
-import facets from "./facets";
+import events from "./events";
 
-export default ({ config, db }) => {
+export default ({ config }) => {
 	const api = Router();
 
-	// mount the facets resource
-	api.use("/facets", facets({ config, db }));
+	// mount the events resource
+	api.use("/events", events({ config }));
 
 	// perhaps expose some API metadata at the root
 	api.get("/", (req, res) => {
