@@ -1,0 +1,3 @@
+export const DEFAULT_GRAPH_COLOR = "#00FF00"
+export const ALERT_GRAPH_COLOR = "#FFFF00"
+export const DANGER_GRAPH_COLOR = "#FF0000"
